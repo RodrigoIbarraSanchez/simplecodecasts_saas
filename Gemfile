@@ -50,3 +50,6 @@ ruby "2.3.0"
 
 # Bootstrap
 gem 'bootstrap-sass', '3.3.6'
+
+# Fontawesome
+gem "font-awesome-rails"
