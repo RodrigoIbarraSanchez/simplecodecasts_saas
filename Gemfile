@@ -48,6 +48,8 @@ end
 gem 'rails_12factor', group: :production
 ruby "2.3.0"
 
+gem 'devise', '3.5.2'
+
 # Bootstrap
 gem 'bootstrap-sass', '3.3.6'
 
