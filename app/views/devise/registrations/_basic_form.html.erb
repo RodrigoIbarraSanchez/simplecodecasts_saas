@@ -1,0 +1,25 @@
+<%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+  <%= devise_error_messages! %>
+
+  <div class="field form-group">
+    <%= f.label :email %><br />
+    <%= f.email_field :email, autofocus: true, class: 'form-control' %>
+  </div>
+
+  <div class="field form-group">
+    <%= f.label :contraseña %>
+    <% if @minimum_password_length %>
+    <em>(<%= @minimum_password_length %> caracteres mínimo)</em>
+    <% end %><br />
+    <%= f.password_field :contraseña, autocomplete: "off", class: 'form-control' %>
+  </div>
+
+  <div class="field form-group">
+    <%= f.label :confirmar_contraseña %><br />
+    <%= f.password_field :confirmar_contraseña, autocomplete: "off", class: 'form-control' %>
+  </div>
+
+  <div class="actions form-group">
+    <%= f.submit "Regístrate", class: 'btn btn-info' %>
+  </div>
+<% end %>
