@@ -9,14 +9,14 @@
 			<h4>Regístrate gratis y obtén acceso a nuestra comunidad.</h4>
 			<br>
 			<br>
-			<%= link_to "Regístrate Plan Básico", new_user_registration_path(plan: @basic_plan.id), class: 'btn btn-primary btn-lg btn-block' %>
+			<%= link_to "Regístrate Plan Básico", new_user_registration_path(Plan: @basic_plan.id), class: 'btn btn-primary btn-lg btn-block' %>
 		</div>
 	</div>
 	<div class="col-md-6">
 		<div class="well">
 			<h2 class="text-center">Membresía Pro</h2>
 			<h4>Regístrate con una cuenta Pro por $1,200 al mes, ten acceso a nuestra comunidad,información de contacto y acceso a los archivos de los cursos.</h4>
-			<%= link_to "Regístrate Plan Pro", new_user_registration_path(plan: @pro_plan.id), class: 'btn btn-info btn-lg btn-block' %>
+			<%= link_to "Regístrate Plan Pro", new_user_registration_path(Plan: @pro_plan.id), class: 'btn btn-info btn-lg btn-block' %>
 		</div>
 	</div>
 </div>
