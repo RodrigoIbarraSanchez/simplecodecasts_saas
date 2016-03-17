@@ -49,10 +49,10 @@ gem 'rails_12factor', group: :production
 ruby "2.3.0"
 
 # User auth
-gem 'devise', '3.5.2'
+gem 'devise', '3.4.1'
 
 # Stripe (pagos)
-gem 'stripe', '1.36.0'
+gem 'stripe', '1.16.1'
 
 # Figaro para esconder llaves secretas
 gem 'figaro', '1.1.1'
