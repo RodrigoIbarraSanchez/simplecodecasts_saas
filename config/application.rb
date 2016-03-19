@@ -22,5 +22,6 @@ module SimplecodecastsSaas
 
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
+    config.stripe.publishable_key = pk_test_xVZ4jqvqFGQmtjp7axgsPlP1
   end
 end

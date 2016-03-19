@@ -1,4 +1,6 @@
 Rails.application.configure do
+
+  config.stripe.publishable_key = pk_test_xVZ4jqvqFGQmtjp7axgsPlP1
   # Settings specified here will take precedence over those in config/application.rb.
 
   # Code is not reloaded between requests.
